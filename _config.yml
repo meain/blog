@@ -1,0 +1,59 @@
+
+# SEO settings
+title: "meain"
+title2: "" # default: ""
+description: "Just another minimalist Jekyll theme for technical writing."
+keywords: "meain, SEO, blog, web, minimalist, vim, emacs, python, js, html, css, shell, scripting"
+url: http://meain.github.io/blog # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/meain/blog
+disqus_shortname: "meain"
+twitter_username: "meain_"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Abin Simon"
+  job      : "Software Engineer"
+  bio      : "Just happend to code at times and now its my job. I swear I didn't see that coming."
+  thumb    : /images/author.jpg
+  email    : abinsimon10@gmail.com
+  url      : http://meain.github.io
+  github   : http://github.com/meain
+  twitter  : http://twitter.com/meain_
+  facebook : https://www.facebook.com/abinsimon10
+  linkedin : http://linkedin.com/in/abin-simon-705152b5
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@meain_"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
