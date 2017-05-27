@@ -2,7 +2,7 @@
 # SEO settings
 title: "meain/blog"
 title2: "" # default: ""
-description: "Just another minimalist Jekyll theme for technical writing."
+description: "^.^"
 keywords: "meain, SEO, blog, web, minimalist, vim, emacs, python, js, html, css, shell, scripting"
 url: http://meain.github.io/blog # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
