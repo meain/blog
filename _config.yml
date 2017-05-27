@@ -8,7 +8,7 @@ url: http://meain.github.io/blog # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
-google_analytics: UA-XXXXX-XX
+google_analytics: UA-100004872-1
 repo: http://github.com/meain/blog
 disqus_shortname: "meain"
 twitter_username: "meain_"
