@@ -4,4 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+Hi, my name is Abin Simon.
+
+Currently working at [Datalog.ai](http://datalog.ai/).
+
+And I am lazy to fill in anything for now. Oh btw this is my [Github](https://github.com/meain) profile.
