@@ -1,9 +1,8 @@
-
 # SEO settings
-title: "meain/blog"
+title: "meain"
 title2: "" # default: ""
-description: "^.^"
-keywords: "meain, SEO, blog, web, minimalist, vim, emacs, python, js, html, css, shell, scripting"
+description: "blog"
+keywords: "meain, blog, web, minimalist, vim, emacs, python, js, html, css, shell, scripting"
 url: http://meain.github.io/blog # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
