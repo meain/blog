@@ -29,8 +29,8 @@ sass:
 # Author settings
 author:
   name     : "Abin Simon"
-  job      : "Software Engineer"
-  bio      : "And this was supposed to be filled with {{ site.author.bio }} if I had written one"
+  job      : "Front End Developer"
+  bio      : "And this was supposed to be filled with {{ site.author.bio }} had I written one"
   thumb    : /images/author.jpg
   email    : abinsimon10@gmail.com
   url      : http://meain.github.io

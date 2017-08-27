@@ -35,6 +35,7 @@ code {
 }
 pre { 
     border: 0;
+    background-color: #ededed;
     code {
         font-size: 15px;
     }
@@ -104,9 +105,10 @@ hr {
   margin: 0 0 1em 0;
   cursor: pointer;
   letter-spacing: 0.8px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 28px;
   font-weight: 300;
+  font-family: monaco,courier,"courier new",fixed-width;
 
   span {
     font-weight: 700;
