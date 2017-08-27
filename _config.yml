@@ -1,7 +1,7 @@
 # SEO settings
 title: "meain/blog"
 title2: "" # default: ""
-description: "blog"
+description: " 🙌 "
 keywords: "meain, blog, web, minimalist, vim, emacs, python, js, html, css, shell, scripting"
 url: http://meain.github.io/blog # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
