@@ -30,6 +30,15 @@ body {
 body {
   background-color: $base-background-color;
 }
+code {
+    font-family: monaco, monospace, sans-serif;
+}
+pre { 
+    border: 0;
+    code {
+        font-size: 15px;
+    }
+}
 
 hr {
   border-top: none;
