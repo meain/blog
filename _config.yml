@@ -1,5 +1,5 @@
 # SEO settings
-title: "meain"
+title: "meain/blog"
 title2: "" # default: ""
 description: "blog"
 keywords: "meain, blog, web, minimalist, vim, emacs, python, js, html, css, shell, scripting"
@@ -30,7 +30,7 @@ sass:
 author:
   name     : "Abin Simon"
   job      : "Software Engineer"
-  bio      : "Just happend to code at times and now its my job. I swear I didn't see that coming."
+  bio      : "And this was supposed to be filled with {{ site.author.bio }} if I had written one"
   thumb    : /images/author.jpg
   email    : abinsimon10@gmail.com
   url      : http://meain.github.io
