@@ -6,6 +6,8 @@ comments: true
 keywords: "vim, emacs, evil mode, switching from vim"
 ---
 
+> Edit: I am back to using `neovim`.
+
 I was a fanatic Vim user for about two years and use to believe that Vim is the only text editor that was `cool`. But, now I use `Emacs`.
 
 > My [emacs](https://github.com/meain/dotfiles/tree/master/emacs) and [neovim](https://github.com/meain/dotfiles/blob/master/nvim/.config/nvim/init.vim) config
