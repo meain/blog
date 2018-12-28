@@ -123,9 +123,7 @@ unsigned int foo(unsigned int x){
   )
 )
 ```
-If you look closely in the last line in `WAST` output `i32.div_s` was changed to `i32.shr_u`. Well, in here this might not matter so much but when you are creating something bigger(game engines maybe?) it does matter.
-
-Also an honoroble mention for making JS does go to the whole event loop madness. You know how that works, it is what enables the async nature of JS but having the async nature creates an overhead for the JS to run and that is a reason for JS to slow down as well. But with languages like `C` or `rust` you do not have an event loop and that does help to speed up.
+If you look closely in the last line in `WAST` output `i32.div_s` was changed to `i32.shr_u` which is a faster instruction. Well, in here this might not matter so much but when you are creating something bigger(game engines maybe?) it does matter.
 
 # Oh snap, so is JS gonna die?
 
