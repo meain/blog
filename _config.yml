@@ -29,7 +29,7 @@ sass:
 # Author settings
 author:
   name     : "Abin Simon"
-  job      : "Front End Developer"
+  job      : "Full Stack Developer"
   bio      : "And this was supposed to be filled with {{ site.author.bio }} had I written one"
   thumb    : /images/author.jpg
   email    : abinsimon10@gmail.com
@@ -37,7 +37,7 @@ author:
   github   : http://github.com/meain
   twitter  : http://twitter.com/meain_
   facebook : https://www.facebook.com/abinsimon10
-  linkedin : http://linkedin.com/in/abin-simon-705152b5
+  linkedin : http://linkedin.com/in/meain
 
 # social settings
 og_locale: "en_US"
