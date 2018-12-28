@@ -4,10 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Abin Simon.
+Hi, my name is Abin Simon. I like to build stuff for fun.
 
-Worked at [Datalog.ai](http://datalog.ai/).
+I am interested in UX design and improving developer workflows.
+I am a big tooling junkie(if that is a thing).
 
-Currently working at [Saama](https://www.saama.com/).
+- Worked at [Datalog.ai](http://datalog.ai/) as an Engineering Intern.
+- Currently working at [Saama](https://www.saama.com/) as a Full Stack Developer.
 
-And I am lazy to fill in anything for now. Oh btw this is my [Github](https://github.com/meain).
+And I am lazy to fill in anything for now. Oh btw this is my [Github](https://github.com/meain) and here is my
+[resume](https://meain.github.io/resume/).
