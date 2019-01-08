@@ -163,6 +163,8 @@ More info about it at [https://pypi.org/project/twine/](https://pypi.org/project
 
 # Aaaand we are done
 
+> You can check out the code [here](https://github.com/meain/counterer).
+
 There you go, now anyone can install your package by using
 
 ```pip3 install counterer```
