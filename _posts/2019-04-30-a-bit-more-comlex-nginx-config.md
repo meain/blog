@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A bit more about configuring nginx"
+title: "A bit more about configuring nginx (rewrite and alias)"
 description: "More stuff about an nginx config"
 comments: true
 keywords: "nginx, web, server, config, conf"
