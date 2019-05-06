@@ -55,3 +55,5 @@ that will be run after a change in dir happens.
 
 There is just some check happening to make sure that the function is not already in the list before we add it. That is
 what that if condition does.
+
+Well, that is it. Happy `cd`ing.
