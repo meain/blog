@@ -8,14 +8,11 @@ keywords: "cd, ls, zsh, shell, automatically"
 
 
 Almost everybody does an `ls` after they `cd` into a folder.
-So why not let your shell automatically do it?
-
+So why not get your shell to automatically do it?
 
 <p align="center">
   <img src="https://i.imgur.com/00UyQyj.png">
 </p>
-
-This will guide you through on how to do it.
 
 ### The simple way
 
@@ -45,12 +42,12 @@ if [[ ${chpwd_functions[(r)list_all]} != "list_all" ]];then
 fi
 ```
 
-OK, if that looks like some weird mess, don't worry. Let me explain.
+OK, if that looks like some weird mess, don't worry. I'll explain.
 
-So, `zsh` lets you run functions after running a command that will run after any command that will change directory.
-That is listed in this variable called `chpwd_functions`.
+So, `zsh` lets you run some functions after running anything that will change directory.
+The commands that are run are listed in this variable called `chpwd_functions` and you can add more to the list.
 
-So what we do here in the code is create a function `list_all` which just does an ls and add it to the list of commands
+So what we do here in the code is create a function(`list_all` in our case) which just does an ls and add it to the list of commands
 that will be run after a change in dir happens.
 
 There is just some check happening to make sure that the function is not already in the list before we add it. That is
