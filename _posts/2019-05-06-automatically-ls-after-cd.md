@@ -12,7 +12,7 @@ So why not let your shell automatically do it?
 
 
 <p align="center">
-  <img src="https://i.imgur.com/vIdjsdE.png">
+  <img src="https://i.imgur.com/00UyQyj.png">
 </p>
 
 This will guide you through on how to do it.
