@@ -178,3 +178,6 @@ predictions = resp.json()['predictions']
 
 Well, that is pretty much it for running `tf-serving`.
 Now put load balancing on top of it and you got a pretty solid production deployment.
+
+Btw, [here](https://www.tensorflow.org/tfx/serving/serving_basic) is `tf-serving` docs for people who wanna use `tensorflow`
+instead of `keras` and `gRPC` instead of `REST`.
