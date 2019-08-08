@@ -190,12 +190,13 @@ Well, this is like a big brother to simple macros. You know, the big guns. The b
 stop there.
 Let us look into what it is.
 
+> **The code for the example here is available at [meain/rust-macros-example](https://github.com/meain/rust-macros-example)**
+
 Procedural macros take some Rust code as input and changes it to some other Rust code. You can more or less think of it
 as receiving the AST and modifying it to a different one, kinda like what `babel` does in the Javascript world but this
 is not to make it compatible with an older version or something.
 
-> One small but important thing about proc macros is that they have to reside in their own crate with a specific crate
-> type
+> One small but important thing about proc macros is that they have to reside in their own crate with a specific crate type
 
 So, a simple macro would have a folder structure something like
 
@@ -502,5 +503,17 @@ gen.into()
 > To use any variable we have defined we have to use a `#` in front. That is why `#defenition` is defined like that.
 
 Now this generated code gets returned with `gen.into()`. And viola, you have a `helpify()` in anything `HelloMacro`.
+
+Well, if we run our code now, you get a response which will look something like this:
+
+```
+$ cargo run                                                                                                                                                                    rust-macros-example/mycode 137d
+    Finished dev [unoptimized + debuginfo] target(s) in 0.04s
+     Running `target/debug/mycode`
+Struct Pancakes
+  doable: bool
+  name: String
+  age: u32
+```
 
 Well, this is more or less what I got, I believe this gave you some kind of a intro to rust macros.
