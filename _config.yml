@@ -8,7 +8,7 @@ baseurl: "/blog" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-100004872-1
-repo: http://github.com/meain/blog
+repo: https://github.com/meain/blog
 disqus_shortname: "meain"
 twitter_username: "meain_"
 comments: false
@@ -33,11 +33,11 @@ author:
   bio      : "And this was supposed to be filled with {{ site.author.bio }} had I written one"
   thumb    : /images/author.jpg
   email    : abinsimon10@gmail.com
-  url      : http://meain.github.io
-  github   : http://github.com/meain
-  twitter  : http://twitter.com/meain_
+  url      : https://meain.github.io
+  github   : https://github.com/meain
+  twitter  : https://twitter.com/meain_
   facebook : https://www.facebook.com/abinsimon10
-  linkedin : http://linkedin.com/in/meain
+  linkedin : https://linkedin.com/in/meain
 
 # social settings
 og_locale: "en_US"
