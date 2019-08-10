@@ -3,7 +3,7 @@ layout: post
 title: "Git never forgets, well kinda. `git-reflog`"
 description: "Git never forgets, well kinda."
 comments: true
-keywords: "blog, awesome"
+keywords: "git, reflog, git reflog, github, history, log"
 ---
 
 Hi, I am gonna let you in on a little secret.
