@@ -29,7 +29,7 @@ git reflog
 
 Here is what a sample output of `git reflog` will look like:
 
-![screenshot]({{site.url}}/blog/assets/images/gitreflog.png)
+![screenshot]({{site.url}}{{site.baseurl}}/assets/images/gitreflog.png)
 
 This is a rather busy tree. As you can see, every check out, every pull, every reset. All of them are in there.
 

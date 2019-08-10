@@ -13,8 +13,8 @@ Maybe you have heard about `Redux` and how it can make it all better and need so
 
 Hmm, good question. It is like this master thingy which handles the state of all your components rather than handling the state in the components. So what you do is when you need to make a change that affects something else ( ie something you would store in the state or pass up to the parent component ) you pass it over to `Redux` ( loosely speaking ). From there you can user `Redux` to send the data to where it is needed.
 
-<!-- ![redux flow]({{site.url}}/assets/images/redux.png) -->
-<div style="text-align:center"><img src ="{{site.url}}/assets/images/redux.png" /></div>
+<!-- ![redux flow]({{site.url}}{{site.baseurl}}/assets/images/redux.png) -->
+<div style="text-align:center"><img src ="{{site.url}}{{site.baseurl}}/assets/images/redux.png" /></div>
 
 # So, how do you connect?
 
