@@ -87,7 +87,6 @@ def main():
     batch_v1 = client.BatchV1Api()
 
     # Create a job object with client-python API. The job we
-    # created is same as the `pi-job.yaml` in the /examples folder.
     job = create_job_object()
 
     create_job(batch_v1, job)
