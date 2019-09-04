@@ -17,6 +17,9 @@ Here is a bit complex but much better way to do it. Lets get started.
 Firefox lets you change the css of the browser by providing custom css file called [userChrome.css](https://github.com/meain/dotfiles/blob/master/firefox/userChrome.css).
 What we do is, load a javascript file using this css file and change Firefox setting using that js file.
 
+> As of Firefox 69, you might have to manually set the value of `toolkit.legacyUserProfileCustomizations.stylesheets` to
+> `true` in `about:config`
+
 ### Set up `userChrome.css`
 
 The first step is to create a file called `userChrome.css` file in your `<profile>/chrome` directory.
