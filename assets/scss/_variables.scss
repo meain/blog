@@ -1,8 +1,10 @@
-// @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 // Typography
-$base-font-family: consolas, monaco, courier, "courier new", fixed-width;
-$heading-font-family: monaco, consolas, courier, "courier new", fixed-width;
+$base-font-family: 'Roboto Mono', consolas, monaco, monospace;
+$heading-font-family: 'Roboto Mono', monaco, consolas, monospace;
+$code-font-family: monaco, consolas, 'Roboto Mono', monospace;
+$logo-font-family: monaco, consolas, 'Roboto Mono', monospace;
 
 // Font Sizes
 $base-font-size: 1em;

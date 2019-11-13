@@ -31,7 +31,7 @@ body {
   background-color: $base-background-color;
 }
 code {
-    font-family: monaco, monospace, sans-serif;
+    font-family: $code-font-family;
     background-color: rgba(40,40,40,0.07);
 }
 pre { 
@@ -110,7 +110,7 @@ hr {
   font-size: 25px;
   line-height: 28px;
   font-weight: 300;
-  font-family: monaco,courier,"courier new",fixed-width;
+  font-family: $logo-font-family;
 
   span {
     font-weight: 700;
@@ -281,6 +281,17 @@ hr {
   margin-top: $base-spacing * 2;
 }
 
+
+div.highlight {
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+div.highlight:hover {
+  overflow: auto;
+}
+
 // This applies from 0px to 600px
 @media (max-width: 600px) {
   .date-label {
@@ -308,5 +319,9 @@ hr {
       border-bottom: 2px solid transparent;
       color: $blue-color;
     }
+  }
+
+  div.highlight {
+    overflow: auto;
   }
 }
