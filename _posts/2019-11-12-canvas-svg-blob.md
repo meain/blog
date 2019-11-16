@@ -13,15 +13,9 @@ Let me show you how you can code up your own svg blob thingy.
 
 Here is what we will be building.
 
-<iframe
-     src="https://codesandbox.io/embed/admiring-hellman-m4dre?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Findex.js"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="admiring-hellman-m4dre"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-   ></iframe>
+![gif](https://i.imgur.com/69tltSr.gif)
 
-> The full code is available at [meain/svg-blob](https://github.com/meain/svg-blob).
+> [github](https://github.com/meain/svg-blob) and [codesandbox](https://codesandbox.io/s/admiring-hellman-m4dre)
 
 OK, here we go.
 
@@ -173,16 +167,10 @@ xmlns="http://www.w3.org/2000/svg"
 </svg>
 ```
 
-With all that in place, you get something this
+With all that in place, you get something this, a simple blob.
+Here is the code for the static one in [codesandbox](https://codesandbox.io/s/tender-darkness-ujk1u).
 
-<iframe
-     src="https://codesandbox.io/embed/tender-darkness-ujk1u?fontsize=14"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="tender-darkness-ujk1u"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-   ></iframe>
-
+![blob]({{site.url}}{{site.baseurl}}/assets/images/blob.png)
 
 ### 3. Animating the svg-blob
 
