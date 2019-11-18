@@ -33,7 +33,7 @@ author:
   bio      : "And this was supposed to be filled with {{ site.author.bio }} had I written one"
   thumb    : /images/author.jpg
   email    : abinsimon10@gmail.com
-  url      : https://meain.github.io
+  url      : https://meain.io
   github   : https://github.com/meain
   twitter  : https://twitter.com/meain_
   facebook : https://www.facebook.com/abinsimon10
