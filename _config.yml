@@ -3,8 +3,8 @@ title: "meain/blog"
 title2: "" # default: ""
 description: " 🙌 "
 keywords: "meain, blog, web, minimalist, vim, emacs, python, js, html, css, shell, scripting, git"
-url: https://meain.io # site url
-baseurl: "/blog" # apply repo name if use it under gh-pages branch
+url: https://blog.meain.io # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-100004872-1
