@@ -36,11 +36,14 @@ Place this piece of code as `.git/hook/pre-commit` and make it executable using 
 ```sh
 #! /bin/sh
 
+RED=$(tput setab 1)
+NORMAL=$(tput sgr0)
+
 CONFLICT_MARKERS='<<<<<<<|=======|>>>>>>>' 
 CHECK=$(git diff --staged | grep "^+" | grep -Ei "$CONFLICT_MARKERS" -c)
 if [ "$CHECK" -gt 0 ]
 then
-    echo "[41m WARNING [00m Conflict markers sill preset"
+    echo "$RED WARNING $NORMAL Conflict markers sill preset"
     git diff --name-only -G"$CONFLICT_MARKERS"
     # uncomment the below line if you need the commit to not go through at all
     # exit 1
@@ -62,8 +65,6 @@ appear in the added lines in the diff and store the count to a variable `CHECK`.
 
 Next line is an `if` check to see if the value in variable `CHECK` is greater than `0`.
 And if it is greater than `0`, we show the warning and a list of files which has conflict markers in them.
-The weird `^[[41m` is so that you get a red background. You could use `^[[31m` to get red foreground instead.
-The `^[[00m` after warning is to reset the color back to normal.
 
 You can prevent the commit from ever happening if you uncomment `exit 1`. But I would personally not recommend this
 unless you add a way to bypass this, maybe using something like and env variable. In some rare cases where you might
