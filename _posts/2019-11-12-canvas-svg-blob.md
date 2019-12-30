@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to create a SVG blog thingy in HTML Canvas"
-description: "How to create a SVG blog thingy in HTML Canvas"
+title: "How to create a SVG blob thingy in HTML Canvas"
+description: "How to create a SVG blob thingy in HTML Canvas"
 comments: true
 keywords: "svg, blob, canvas, animate, javascript, css"
 ---
