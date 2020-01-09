@@ -6,6 +6,8 @@ comments: true
 keywords: "firefox, newtabpage, startpage, r/startpages"
 ---
 
+> This will not work as of Firefox 72
+
 So, I was going through [`r/startpages`](https://www.reddit.com/r/startpages/) and checking out the `startpages` there.
 A lot of them looked pretty awesome and I decided to create one. And create, I did [meain/startpage](https://github.com/meain/startpage).
 
