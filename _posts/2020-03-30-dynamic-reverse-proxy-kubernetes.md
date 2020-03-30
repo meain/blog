@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dynamic reverse proxy usig nginx in Kubernetes"
+title: "Dynamic reverse proxy using nginx in Kubernetes"
 description: "Setting up dynamic reverse proxy using nginx in Kubernetes"
 comments: true
 keywords: "kubernetes, ingress, reverse-proxy, dynamic, nginx"
