@@ -8,6 +8,8 @@ keywords: "docker, s3, mount, s3fs, fuse, kubernetes, aws, gcp, gks, eks"
 
 Another installment of me figuring out more of kubernetes.
 
+> Full code available at [meain/s3-mounter](https://github.com/meain/s3-mounter)
+
 So, I was working on a project which will let people login to a web service and spin up a coding env with prepopulated
 data and creds. We were spinning up kube pods for each user.
 
