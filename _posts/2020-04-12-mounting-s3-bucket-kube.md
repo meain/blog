@@ -31,7 +31,7 @@ This was relatively straight foreward, all I needed to do was to pull an alpine 
 [s3fs-fuse/s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) on to it.
 
 Just build the following container and push it to your container.
-I have published this image on my Dockerhub. You can use [that](https://dockerhub.io/meain/s3-mounter) if you want.
+I have published this image on my Dockerhub. You can use [that](https://hub.docker.com/r/meain/s3-mounter) if you want.
 
 
 ```docker
@@ -94,6 +94,11 @@ What we are doing is that we mount s3 to the container but the folder that we mo
 With this, we will easily be able to get the folder from the host machine in any other container just as if we are
 mounting a normal fs.
 
+The visualisation from [freegroup/kube-s3](https://github.com/freegroup/kube-s3) makes it pretty clear.
+
+![screenshot]({{site.url}}{{site.baseurl}}/assets/images/s3-mount.png)
+
+
 Since every pod expects the item to be available in the host fs, we need to make sure all host VMs do have the folder. A
 `DaemonSet` will let us do that. A `DaemonSet` pretty much ensures that one of this container will be run on every node
 which you specify. In our case, we ask it to run on all nodes.
@@ -119,7 +124,7 @@ spec:
     spec:
       containers:
       - name: s3fuse
-        image: dockerhub.io/meain/s3-mounter
+        image: meain/s3-mounter
         securityContext:
           privileged: true
         envFrom:
@@ -185,3 +190,13 @@ Run this and if you check in `/var/s3fs`, you can see the same files you have in
 
 *Change `mountPath` to change where it gets mounted to. Change `hostPath.path` to a subdir if you only want to expose on
 specific folder*
+
+## Extra resources
+
+- [freegroup/kube-s3](https://github.com/freegroup/kube-s3)
+
+- [s3fs-fuse/s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse)
+
+- [skypeter1/docker-s3-bucket](https://github.com/skypeter1/docker-s3-bucket)
+
+- [Kubernetes-shared-storage-with-S3-backend](https://icicimov.github.io/blog/virtualization/Kubernetes-shared-storage-with-S3-backend/)
