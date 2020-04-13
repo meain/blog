@@ -146,6 +146,9 @@ spec:
           path: /mnt/s3data
 ```
 
+> If you are using GKE and using [Container-Optimized OS](https://cloud.google.com/container-optimized-os/docs/concepts/disks-and-filesystem),
+> `/mnt` will not be writeable, use `/home/s3data` instead
+
 With that applied you will have :
 
 ```
