@@ -237,9 +237,6 @@ spec:
           servicePort: 80
 ```
 
-You should even be able to setup wildcard `ssl` certificates using letsencrypt.
-You can add `host` inside `tls` as `*.mydomain.com`
-
 # Deploy
 
 Well, I am pretty sure you know how to do this. But essentially
