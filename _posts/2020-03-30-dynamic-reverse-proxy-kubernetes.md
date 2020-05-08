@@ -151,6 +151,7 @@ data:
           proxy_set_header Connection "Upgrade";
           proxy_pass http://$subdomain.msce0.svc.cluster.local;
           proxy_set_header Host $host;
+          proxy_http_version 1.1;
         }
       }
     }
