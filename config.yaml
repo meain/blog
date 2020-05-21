@@ -1,0 +1,9 @@
+baseURL: https://blog.meain.io
+disablePathToLower: true
+languageCode: en-us
+title: meain/blog | 🙌
+theme: lighter
+menus:
+    main:
+        - url: /page/about
+          name: About

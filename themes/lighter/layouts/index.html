@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+  <p class="lead">
+  Hi, I'm <code>Abin Simon</code>, a <i>Research Engineer</i>.
+  And this was supposed to be filled with `site.author.bio` had I written one
+  </p>
+
+  <div class="archive">
+    {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006" }}
+    <h2 class="archive-title">{{ .Key }}</h2>
+    {{ range .Pages }}
+    <article class="archive-item">
+      <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
+      <span class="archive-item-date">
+        {{ .Date.Format "Jan 02" }}
+      </span>
+    </article>
+    {{ end }}
+    {{ end }}
+  </div>
+
+</main>
+
+{{ partial "footer.html" . }}
