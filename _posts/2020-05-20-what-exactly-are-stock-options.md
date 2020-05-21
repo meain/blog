@@ -7,7 +7,7 @@ keywords: "blog, finance, sock options, stock, options"
 ---
 
 So yeah, this is me trying to write a non technical blog. Not sure how this will end up.
-This is just an intro, very basic of what I wished I knew when I started off.
+This is just an intro, very basics of what I wished I knew when I started off.
 
 I am not someone who really knows what I am talking about here, you have been warned.
 
