@@ -3,7 +3,25 @@ disablePathToLower: true
 languageCode: en-us
 title: meain/blog | 🙌
 theme: lighter
+
+googleAnalytics: ""
+disqusShortname: ""
+disableKinds: ["taxonomy", "taxonomyTerm", "section", "404"]
+
+permalinks:
+    post: /:year/:title/
+    page: /:title/
+
 menus:
     main:
-        - url: /page/about
+        - url: /about/
           name: About
+        - url: https://github.com/meain
+          name: Github
+        - url: https://twitter.com/meain_
+          name: Twitter
+
+# params:
+#     favicon: "favicon.png"
+#     icon:
+#         url: "favicon.png"
