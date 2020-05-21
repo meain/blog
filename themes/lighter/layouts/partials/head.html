@@ -10,7 +10,7 @@
 <title>{{ .Title }} - {{ .Site.Title }}</title>
 <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
 {{ end }}
-{{ with .Site.Params.favicon }}
+{{ with .Site.Params.Favicon }}
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{ end }}
 

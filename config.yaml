@@ -21,7 +21,7 @@ menus:
         - url: https://twitter.com/meain_
           name: Twitter
 
-# params:
-#     favicon: "favicon.png"
-#     icon:
-#         url: "favicon.png"
+params:
+    favicon: "favicon.png"
+    icon:
+        url: "favicon.png"
