@@ -47,6 +47,7 @@ twitter_site: "@meain_"
 plugins:
   - bourbon
   - jekyll-paginate
+  - jekyll-turbolinks
 
 # navbar pages
 navbar:
