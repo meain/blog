@@ -3,6 +3,7 @@ disablePathToLower: true
 languageCode: en-us
 title: meain/blog | 🙌
 theme: lighter
+author: "Abin Simon"
 
 googleAnalytics: ""
 disqusShortname: ""
