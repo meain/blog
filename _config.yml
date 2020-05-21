@@ -56,4 +56,8 @@ navbar:
   - slug : blog
     title: Blog
 
+turbolinks:
+  enabled: true # Set to false if you want to use the tag
+  url: turbolinks.js
+
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
