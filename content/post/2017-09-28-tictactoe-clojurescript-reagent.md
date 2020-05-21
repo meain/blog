@@ -12,7 +12,7 @@ Actually I was kinda playing around with `Haskell` before I reached here. It fee
 To be frank I think everyone should try out functional programming at some point of time.
 Well, enough bullshit let us get to building it.
 
-![screenshot]({{.Site.BaseURL}}/assets/images/tictactoe.png)
+![screenshot](/images/tictactoe.png)
 
 > Fully working code: [tictactoe-clojurescript-reagent](https://github.com/meain/tictactoe-clojurescript-reagent)
 

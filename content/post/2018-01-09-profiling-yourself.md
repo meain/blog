@@ -20,7 +20,7 @@ But here is how you would do it if you had thought of doing it. ( in OSX )
 I started doing this in march of 2016 ( now have about 3700 images ) and from time to time try creating something like a time-lapse.
 It is kinda fun. Maybe, at least for some.
 
-![screenshot]( {{site.url}}{{site.baseurl}}/assets/images/loginimages-screenshot.png )
+![screenshot]( /images/loginimages-screenshot.png )
 
 
 # How to

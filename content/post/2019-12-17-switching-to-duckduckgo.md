@@ -27,7 +27,7 @@ under the DuckDuckGo search bar.
 
 The end result will look something like this:
 
-![screenshot]({{site.url}}{{site.baseurl}}/assets/images/ddg.png)
+![screenshot](/images/ddg.png)
 
 
 If you click on `useGoogle()`, it will just redirect you to a page with the exact search on Google.

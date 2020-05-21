@@ -42,7 +42,7 @@ Let me explain.
 First we check if there are any active SSH connections to the machine. We can do that by using the `last` command.
 Here is the output of that command.
 
-![screenshot]({{site.url}}{{site.baseurl}}/assets/images/ssh-last.png)
+![screenshot](/images/ssh-last.png)
 
 The first two lines of the script are for this. It checks if the string "still logged in" is in the output of the `last`
 command. If so, we know that there is an active ssh connection and we can abort the script.
@@ -57,7 +57,7 @@ someone logged out.
 
 To get the last accessed time on `/var/log/wtmp` we can use the `stat` command.
 
-![screenshot]({{site.url}}{{site.baseurl}}/assets/images/ssh-stat.png)
+![screenshot](/images/ssh-stat.png)
 
 We can compare this time to the current time and check if the difference is more that 60*60 (1hour). You can vary this
 time with what you feel comfortable.
