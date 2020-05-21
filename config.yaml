@@ -10,7 +10,7 @@ disableKinds: ["taxonomy", "taxonomyTerm", "section", "404"]
 
 permalinks:
     post: /:year/:title/
-    page: /:title/
+    page: /:filename/
 
 menus:
     main:
