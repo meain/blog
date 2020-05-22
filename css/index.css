@@ -80,6 +80,7 @@ code {
   background-color: #f1f1f1;
   padding: 2px 10px;
   border-radius: 5px;
+  font-size: 15px !important;
 }
 pre>code{
   padding: 0;
@@ -103,15 +104,15 @@ pre {
   padding: 1.5em !important;
   border-radius: 5px;
   margin: .5em 0;
-  background-color: #f6f6f6;
-  overflow: hidden;
+  background-color: #f1f1f1;
+  overflow: hidden !important;
 }
 pre:hover {
-  overflow: auto;
+  overflow: auto !important;
 }
 @media only screen and (max-width: 600px) {
   pre {
-	overflow: auto;
+	overflow: auto !important;
   }
 }
 .highlight-line {
