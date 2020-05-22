@@ -60,7 +60,7 @@ There is this thing called [minikube](https://kubernetes.io/docs/tasks/tools/ins
 inorder to test out Kubernetes locally. It pretty much sets up a VM in your machine and makes it your Kubernetes cluster
 with one node(VM instance). Just run `minikube start` to start minikube.
 
-![screenshot](/img/minikube.png)
+![screenshot](/images/minikube.png)
 
 You will need to connect your Kubernetes cluster to `kubectl`. When you run `minikube start` it will set up the cluster
 and connect it to `kubectl`. When creating a Kubernetes cluster using gcloud or aws you will have their own way in which

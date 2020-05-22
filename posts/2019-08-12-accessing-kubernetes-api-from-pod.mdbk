@@ -13,7 +13,7 @@ My exact use case was that, I wanted to run a Pod which will watch a redis queue
 a new item in the queue. I will only be explaining how to set up the permissions and I think the rest of the tasks has
 been well explained by a lot of people.
 
-![gif](/img/job.gif)
+![gif](/images/job.gif)
 
 So, I have a simple python file that I would like to run to create a `Job` and then delete it later.
 It will look something like this:
