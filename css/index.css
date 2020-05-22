@@ -9,6 +9,12 @@
   --navy: #17050f;
   --blue: #0086b3;
   --white: #fff;
+  --main-font: "Space Mono", Consolas, Menlo, Monaco, Inconsolata,
+    "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", monospace;
+  --code-font: "Space Mono", Consolas, Menlo, Monaco, Inconsolata,
+    "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", monospace;
 }
 * {
   box-sizing: border-box;
@@ -18,8 +24,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Inconsolata, system-ui, sans-serif;
-  color: var(--darkgray);
+  font-family: var(--main-font);
+  color: hsl(0, 0%, 30%);
   background-color: var(--white);
 }
 p:last-child {
@@ -43,7 +49,7 @@ p.lead {
 }
 main {
   padding: 1rem;
-  max-width: 700px;
+  max-width: 800px;
   margin: 20px auto;
 }
 main :first-child {
@@ -59,7 +65,7 @@ header {
 }
 @media only screen and (max-width: 600px) {
   header {
-	padding: 20px;
+    padding: 20px;
     justify-content: center;
   }
 }
@@ -82,10 +88,7 @@ blockquote {
 
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono",
-    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
-    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
-    "Courier New", Courier, monospace;
+  font-family: var(--code-font);
   line-height: 1.5;
   background-color: #f1f1f1;
   padding: 2px 10px;
@@ -161,7 +164,6 @@ pre:hover {
   color: black;
   text-decoration: none;
   /* font-weight: bold; */
-  font-family: monaco;
   font-size: 25px;
   border-bottom: none !important;
   padding: 0 0;
@@ -300,17 +302,20 @@ a:hover {
     text-align: left;
   }
 }
-.category-title{
+.category-title {
   color: var(--gray);
 }
 .post-meta {
-    color: #999;
-    text-transform: uppercase;
-    display: inline-block;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    margin-bottom: 1px;
+  color: #999;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-bottom: 1px;
 }
 .post-title {
+  font-size: 2.5em;
+  line-height: 1;
   margin-top: 5px;
+  margin-bottom: 1.5em;
 }
