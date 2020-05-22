@@ -89,7 +89,7 @@ code {
   background-color: #f1f1f1;
   padding: 2px 10px;
   border-radius: 5px;
-  font-size: 15px !important;
+  font-size: inherit !important;
 }
 pre > code {
   padding: 0;
