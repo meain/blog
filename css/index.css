@@ -19,6 +19,7 @@
 * {
   box-sizing: border-box;
   transition: all 0.1s ease-in-out;
+  font-feature-settings: "liga" 0;
 }
 html,
 body {
