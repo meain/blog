@@ -226,7 +226,7 @@ pre:hover {
 }
 
 /* Tags */
-.tag {
+.post-tag {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
@@ -238,8 +238,8 @@ pre:hover {
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
 }
-a[href].tag,
-a[href].tag:visited {
+a[href].post-tag,
+a[href].post-tag:visited {
   /* color: #fff; */
 }
 
@@ -301,4 +301,15 @@ a:hover {
 }
 .category-title{
   color: var(--gray);
+}
+.post-meta {
+    color: #999;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin-bottom: 1px;
+}
+.post-title {
+  margin-top: 5px;
 }
