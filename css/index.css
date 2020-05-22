@@ -267,7 +267,8 @@ a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
-  /* color: #aaa; */
+  color: #aaa;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
 footer {
