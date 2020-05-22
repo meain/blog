@@ -250,4 +250,4 @@ k apply -f service.yaml
 k apply -f ingress.yaml
 ```
 
-<center><h1>K. THANKS. BYE</h1></center>
+<center><h1>K. THX. BYE</h1></center>
