@@ -6,7 +6,6 @@ theme: lighter
 author: "Abin Simon"
 
 googleAnalytics: ""
-disqusShortname: ""
 disableKinds: ["taxonomy", "taxonomyTerm", "section", "404"]
 
 permalinks:
