@@ -1,6 +1,7 @@
 ---
 date: 2020-04-05
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Auto shutdown VM if no active SSH connections and a peek into my workflow
 keywords: workflow, automatic, ssh, shutdown, VM, SSH
 title: Auto shutdown VM if no active SSH connections

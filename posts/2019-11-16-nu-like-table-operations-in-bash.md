@@ -1,6 +1,7 @@
 ---
 date: 2019-11-16
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to do most of the table operations that you can do in Nu Shell in
   good ol' BASH
 keywords: shell, bash, nu-shell, nu, zsh, awk, sort, column

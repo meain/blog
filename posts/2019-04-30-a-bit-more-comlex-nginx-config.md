@@ -1,6 +1,7 @@
 ---
 date: 2019-04-30
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: More stuff about an nginx config
 keywords: nginx, web, server, config, conf
 title: A bit more about configuring nginx (rewrite and alias)

@@ -1,6 +1,7 @@
 ---
 date: 2019-02-17
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: A simple intro to Rust's macros
 keywords: Rust, macro, proc-macro, rustlang
 title: Understanding Rust macros

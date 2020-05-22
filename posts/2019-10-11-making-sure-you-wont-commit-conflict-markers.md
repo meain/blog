@@ -1,6 +1,7 @@
 ---
 date: 2019-10-11
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Adding a git hook to warn you when you commit code with conflict markers
 keywords: git,hooks,git-hooks,conflict,conflict-markers
 title: Making sure you won't commit conflict markers

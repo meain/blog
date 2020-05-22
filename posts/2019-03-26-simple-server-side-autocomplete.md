@@ -1,6 +1,7 @@
 ---
 date: 2019-03-26
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Understanding how to effectively do autocomplete when you need to ping
   you backend
 keywords: Javascript, autocomplete, react, server, backend

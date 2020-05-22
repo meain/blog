@@ -1,6 +1,7 @@
 ---
 date: 2017-05-27
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Get Vim and Tmux to play nice with the system clipboard once and for all
 keywords: vim, tmux, clipboard, mac, iterm
 title: How to make Vim and Tmux friends with system clipboard

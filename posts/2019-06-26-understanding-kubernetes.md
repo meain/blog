@@ -1,6 +1,7 @@
 ---
 date: 2019-06-26
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Understanding the basics of how to get started on using Kubernetes
 keywords: kubernetes, docker, containers, deployment, autoscaling
 title: Understanding Kubernetes (Basics)

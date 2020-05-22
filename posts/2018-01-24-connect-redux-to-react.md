@@ -1,6 +1,7 @@
 ---
 date: 2018-01-24
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Simplest guide to show how to connect redux and react and get started
 keywords: react, redux, frontend, javascript, code
 title: Connecting `Redux` to `React`, simplified

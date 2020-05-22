@@ -1,6 +1,7 @@
 ---
 date: 2019-07-27
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Setting local files as New Tab page in Firefox
 keywords: firefox, newtabpage, startpage, r/startpages
 title: Setting local files as New Tab page in Firefox

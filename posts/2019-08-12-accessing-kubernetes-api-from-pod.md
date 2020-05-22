@@ -1,6 +1,7 @@
 ---
 date: 2019-08-12
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to create Jobs, etc from a Pod inside Kubernetes
 keywords: kubernets, job, kuerbentes api, pod, rbac
 title: Accessing Kubernetes API from a Pod (RBAC)

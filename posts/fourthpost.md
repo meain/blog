@@ -1,6 +1,7 @@
 ---
 title: This is my fourth post.
 description: This is a post on My Blog about touchpoints and circling wagons.
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 date: 2018-09-30
 tags: second-tag
 layout: layouts/post.njk

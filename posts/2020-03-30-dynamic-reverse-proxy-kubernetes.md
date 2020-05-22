@@ -1,6 +1,7 @@
 ---
 date: 2020-03-30
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Setting up dynamic reverse proxy using nginx in Kubernetes
 keywords: kubernetes, ingress, reverse-proxy, dynamic, nginx
 title: Dynamic reverse proxy using nginx in Kubernetes

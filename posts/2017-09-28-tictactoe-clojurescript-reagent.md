@@ -1,6 +1,7 @@
 ---
 date: 2017-09-28
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Creating a simple tic-tac-toe game in Clojurescript from scratch using
   Reagent. Beginner tutorial to Clojurescript.
 keywords: functional programming, clojure, clojurescript, reagent, tic-tac-toe

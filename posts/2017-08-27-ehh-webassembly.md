@@ -1,6 +1,7 @@
 ---
 date: 2017-08-27
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: What actually is Webassembly?
 keywords: webassembly, web, assembly, wasm
 title: Ehh, Webassembly?

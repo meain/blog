@@ -1,6 +1,7 @@
 ---
 date: 2019-01-08
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: A quick and simple introduction to writing a basic nginx conf file
 keywords: nginx, web, server, config, conf
 title: A really simple nginx config

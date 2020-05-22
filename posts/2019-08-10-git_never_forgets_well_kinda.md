@@ -1,6 +1,7 @@
 ---
 date: 2019-08-10
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Git never forgets, well kinda.
 keywords: git, reflog, git reflog, github, history, log
 title: Git never forgets, well kinda. `git-reflog`

@@ -1,6 +1,7 @@
 ---
 title: This is my first post.
 description: This is a post on My Blog about agile frameworks.
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 date: 2018-05-01
 tags:
   - another-tag

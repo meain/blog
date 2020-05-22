@@ -1,6 +1,7 @@
 ---
 date: 2019-12-17
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to make the switch to DuckDuckGo a bit smoother
 keywords: google, duckduckgo, switch, privacy
 title: Switching to DuckDuckGo

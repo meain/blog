@@ -1,6 +1,7 @@
 ---
 date: 2019-05-06
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to automatically run ls after changing into a directory in zsh
 keywords: cd, ls, zsh, shell, automatically
 title: Automatically list files after cd

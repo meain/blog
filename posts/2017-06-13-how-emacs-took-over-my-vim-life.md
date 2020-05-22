@@ -1,6 +1,7 @@
 ---
 date: 2017-06-13
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: My journey of switching from Vim to Emacs
 keywords: vim, emacs, evil mode, switching from vim
 title: How Emacs took over my Vim life

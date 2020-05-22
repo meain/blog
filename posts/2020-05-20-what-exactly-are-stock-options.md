@@ -1,6 +1,7 @@
 ---
 date: 2020-05-20
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: What exactly are stock options?
 keywords: blog, finance, sock options, stock, options
 title: What exactly are stock options?

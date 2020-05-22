@@ -1,6 +1,7 @@
 ---
 date: 2018-01-09
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: This guide helps you to set up something that will let you take a picture
   of yourself every time you open the laptop with the laptop camera
 keywords: mac, photo, camera, script, daily

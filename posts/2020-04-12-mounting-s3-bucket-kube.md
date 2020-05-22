@@ -1,6 +1,7 @@
 ---
 date: 2020-04-12
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Mouting S3 bucket in a docker container in a kubernetes cluster
 keywords: docker, s3, mount, s3fs, fuse, kubernetes, aws, gcp, gks, eks
 title: Mouting S3 bucket in a docker container

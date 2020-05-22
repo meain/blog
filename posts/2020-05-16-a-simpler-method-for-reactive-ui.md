@@ -1,6 +1,7 @@
 ---
 date: 2020-05-16
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: A simpler method for a reactive UI
 keywords: react, javascript, callback, lit-html, UI, reactive, frontend
 title: A simpler method for a reactive UI

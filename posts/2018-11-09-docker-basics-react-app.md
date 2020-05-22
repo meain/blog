@@ -1,6 +1,7 @@
 ---
 date: 2018-11-09
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to deploy a simple react app using docker
 keywords: docker, react
 title: Docker basics

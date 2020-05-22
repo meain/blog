@@ -1,6 +1,7 @@
 ---
 date: 2019-11-12
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to create a SVG blob thingy in HTML Canvas
 keywords: svg, blob, canvas, animate, javascript, css
 title: How to create a SVG blob thingy in HTML Canvas

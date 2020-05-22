@@ -1,6 +1,7 @@
 ---
 date: 2018-12-28
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to publish a console application to pypi
 keywords: pypi, python, console, publish
 title: Publishing a console application to pypi

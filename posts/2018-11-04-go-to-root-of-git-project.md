@@ -1,6 +1,7 @@
 ---
 date: 2018-11-04
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: How to cd to a git project root from anywhere in the project
 keywords: git, project, bash
 title: Quickly go to project root

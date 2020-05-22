@@ -1,6 +1,7 @@
 ---
 date: 2019-05-11
 layout: layouts/post.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 description: Deploying a simple tensorflow or keras model using tf-serving
 keywords: tensorflow, keras, tf-serving, serving, deployment
 title: Beginners guide to tensorflow serving
