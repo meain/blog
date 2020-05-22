@@ -1,0 +1,2 @@
+- about page still showing up in rss feed
+- title is still a mess
