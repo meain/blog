@@ -5,9 +5,12 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>Latest 3 Posts</h1>
+<p class="lead">
+Hi, I'm <code>Abin Simon</code>, a <i>Research Engineer</i>.
+And this was supposed to be filled with `site.author.bio` had I written one
+</p>
 
-{% set postslist = collections.posts | head(-3) %}
+{% set postslist = collections.posts %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
