@@ -10,6 +10,7 @@
 }
 * {
   box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
 }
 html,
 body {
@@ -216,4 +217,20 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  border-top: 0.2em dashed #ededed;
+}
+
+a {
+  text-decoration: none;
+  color: #0086b3;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+a:hover {
+  border-bottom: 2px solid #0086b3;
 }
