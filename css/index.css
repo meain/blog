@@ -299,3 +299,6 @@ a:hover {
     text-align: left;
   }
 }
+.category-title{
+  color: var(--gray);
+}
