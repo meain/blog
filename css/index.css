@@ -76,6 +76,11 @@ img {
   margin-right: auto;
   max-width: 37.5em; /* 600px /16 */
 }
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 100%;
+  }
+}
 .tmpl-post li {
   line-height: 1.45;
 }
