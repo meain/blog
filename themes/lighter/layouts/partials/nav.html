@@ -6,12 +6,6 @@
   <ul class="nav-links">
     {{ range .Site.Menus.main }}
     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{ end }} {{ with .OutputFormats.Get "RSS" }}
-    <li>
-      <a href="{{ .RelPermalink }}" type="application/rss+xml" target="_blank"
-        >RSS</a
-      >
-    </li>
     {{ end }}
   </ul>
 </nav>

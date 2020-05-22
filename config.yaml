@@ -16,12 +16,19 @@ menus:
     main:
         - url: /about/
           name: About
-        - url: https://github.com/meain
-          name: Github
-        - url: https://twitter.com/meain_
-          name: Twitter
+        - url: /feed.xml
+          name: RSS
 
 params:
     favicon: "favicon.png"
     icon:
         url: "favicon.png"
+
+outputs:
+  home:
+    - RSS
+    - HTML
+outputFormats:
+  RSS:
+    mediatype: application/rss
+    baseName: feed
