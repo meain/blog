@@ -32,3 +32,5 @@ outputFormats:
   RSS:
     mediatype: application/rss
     baseName: feed
+
+rssLimit: 20
