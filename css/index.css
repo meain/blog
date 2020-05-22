@@ -39,10 +39,10 @@ p.lead {
   line-height: 1;
 }
 a[href] {
-  color: var(--blue);
+  /* color: var(--blue); */
 }
 a[href]:visited {
-  color: var(--navy);
+  /* color: var(--navy); */
 }
 main {
   padding: 1rem;
@@ -194,8 +194,10 @@ pre:hover {
 }
 .postlist-date {
   word-spacing: -0.5px;
+  color: #b5b5b5;
 }
 .postlist-link {
+  color: #333;
   display: inline-block;
   padding: 0.25em 0.1875em; /* 4px 3px /16 */
 }
@@ -223,7 +225,7 @@ pre:hover {
 }
 a[href].tag,
 a[href].tag:visited {
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* Warning */
@@ -250,7 +252,7 @@ a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
-  color: #aaa;
+  /* color: #aaa; */
 }
 
 footer {
