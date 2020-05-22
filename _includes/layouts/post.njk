@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<p class="post-meta"> {{ date | postMetaDateString }} </p>
+<p class="post-meta"> {{ date | postMetaDateString }} . {{ content | readingTime }} </p>
 <h1 class="post-title">{{ title }}</h1>
 
 {{ content | safe }}
