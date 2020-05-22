@@ -171,7 +171,7 @@ xmlns="http://www.w3.org/2000/svg"
 With all that in place, you get something this, a simple blob.
 Here is the code for the static one in [codesandbox](https://codesandbox.io/s/tender-darkness-ujk1u).
 
-![blob](/images/blob.png)
+![blob](/img/blob.png)
 
 ### 3. Animating the svg-blob
 

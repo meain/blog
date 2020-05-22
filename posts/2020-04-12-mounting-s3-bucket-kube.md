@@ -99,7 +99,7 @@ mounting a normal fs.
 
 The visualisation from [freegroup/kube-s3](https://github.com/freegroup/kube-s3) makes it pretty clear.
 
-![screenshot](/images/s3-mount.png)
+![screenshot](/img/s3-mount.png)
 
 
 Since every pod expects the item to be available in the host fs, we need to make sure all host VMs do have the folder. A

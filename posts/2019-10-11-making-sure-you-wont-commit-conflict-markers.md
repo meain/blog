@@ -27,7 +27,7 @@ that git by default puts there so that you can see what it can probably do.
 What we are going to do is to create a pre-commit hook which will show something like this.
 It will give us a big bold red warning when we try to commit a piece of code that contains conflict markers in it.
 
-![conflict-marker](/images/conflict-marker.png)
+![conflict-marker](/img/conflict-marker.png)
 
 
 ### tldr;
