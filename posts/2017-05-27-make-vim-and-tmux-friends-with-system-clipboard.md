@@ -57,7 +57,7 @@ This is the hard part and I am really sorry that I haven't got time to play arou
 This solution is specific to [iTerm](https://www.iterm2.com/), so download and install it first.
 Now enable `Applications in terminal may access clipboard` option from iTerm preferences.
 
-![screenshot-iterm-pref](http://i.imgur.com/wo5c6Ev.png)
+![screenshot-iterm-pref](https://i.imgur.com/wo5c6Ev.png)
 
 
 ## Set up Tmux
