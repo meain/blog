@@ -9,10 +9,10 @@
   --navy: #17050f;
   --blue: #0086b3;
   --white: #fff;
-  --main-font: "Space Mono", Consolas, Menlo, Monaco, Inconsolata,
+  --main-font: "Lekton", Consolas, Menlo, Monaco, Inconsolata,
     "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
     "Liberation Mono", "Nimbus Mono L", monospace;
-  --code-font: "Space Mono", Consolas, Menlo, Monaco, Inconsolata,
+  --code-font: "Lekton", Consolas, Menlo, Monaco, Inconsolata,
     "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
     "Liberation Mono", "Nimbus Mono L", monospace;
 }
@@ -27,6 +27,7 @@ body {
   font-family: var(--main-font);
   color: hsl(0, 0%, 40%);
   background-color: var(--white);
+  line-height: 1.5em;
 }
 h1,
 h2,
