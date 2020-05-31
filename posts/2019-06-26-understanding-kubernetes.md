@@ -122,7 +122,7 @@ Hello, World!%
 
 When deploying, you will have to push your docker image to some remote location and give
 that location for image. There are multiple services which let you upload your docker images.
-Google has [gcr.io](gcr.io) or you could just use [hub.docker.com](hub.docker.com).
+Google has [gcr.io](https://gcr.io) or you could just use [hub.docker.com](https://hub.docker.com).
 
 You could push your docker image using:
 
