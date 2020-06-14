@@ -151,7 +151,7 @@ blockquote {
   color: var(--darkgray);
   line-height: 1.8;
   border-left: 0.75em solid var(--darkgray);
-  background-color: var(--almost-white);
+  background-color: var(--lightgray);
   border-radius: 3px;
 }
 
