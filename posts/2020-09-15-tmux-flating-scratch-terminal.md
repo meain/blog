@@ -80,5 +80,18 @@ fi
 With this script, when you are in a session called `popup`(which you are when you have the floating window open) we detach,
 otherwise we create a popup with a session named `popup` and attach to it.
 
+Btw, if you want a bigger floating window, you can always just ask tmux.
+
+**pouptmux**
+```shell
+width=${2:-80%}
+height=${2:-80%}
+if [ "$(tmux display-message -p -F "#{session_name}")" = "popup" ];then
+    tmux detach-client
+else
+    tmux popup -d '#{pane_current_path}' -xC -yC -w$width -h$height -K -E -R "tmux attach -t popup || tmux new -s popup"
+fi
+```
+
 All good, now we can just go on hitting <kbd>\<prefix\></kbd><kbd>j</kbd> to open and close the floating window.
 Although we do have this now, the performance ain't that good. So at the end of the day if you open and close it a lot, this might not be for you.
