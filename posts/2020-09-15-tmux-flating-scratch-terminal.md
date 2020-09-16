@@ -11,6 +11,8 @@ Hi, Just another one off blog.
 I have been using tmux for a while and one main thing I always wanted to have in tmux is a floating scratch terminal.
 I got so used to this during my time with i3 and wanted to replicate it with just tmux.
 
+![screenshot](/img/tmux-floating.png)
+
 > Check out what I am talking about on [Youtube](https://youtu.be/PdL__5AydVE).  
 > Code used here: [script](https://github.com/meain/dotfiles/blob/master/scripts/.bin/popuptmux) and [tmux-config](https://github.com/meain/dotfiles/blob/master/tmux/.tmux.conf)
 
