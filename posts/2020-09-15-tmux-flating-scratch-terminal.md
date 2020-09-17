@@ -95,5 +95,9 @@ else
 fi
 ```
 
+>Checkout the discussion on [reddit](https://www.reddit.com/r/tmux/comments/itonec/floating_scratch_terminal_in_tmux/),
+>have a great workflow with floating terminals by [/u/KevinHwang91](https://www.reddit.com/user/KevinHwang91/)
+>in [there](https://www.reddit.com/r/tmux/comments/itonec/floating_scratch_terminal_in_tmux/g5jxke4).
+
 All good, now we can just go on hitting <kbd>\<prefix\></kbd><kbd>j</kbd> to open and close the floating window.
 Although we do have this now, the performance ain't that good. So at the end of the day if you open and close it a lot, this might not be for you.
