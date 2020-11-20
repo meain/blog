@@ -12,7 +12,7 @@ OK, so I recently switched over to Emacs just becuse I woke up one day and got t
 Now with that out of the way, let me tell you about what I was actually planning to write about.
 The idea is to show you a small example of how I am able to hack together stuff in Emacs.
 
-> I know someone will ask for it, here are my [dotfiles](https://github.com/meain/dotfiles). Steal away.
+> I know someone will ask for it, so here are my [dotfiles](https://github.com/meain/dotfiles). Steal away.
 
 Before switching to Emacs I have been a very heavy (neo)vim user for a long time.
 And at some point I had the following snippet added from some reddit thread to my vimrc.
