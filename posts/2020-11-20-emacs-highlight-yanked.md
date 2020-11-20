@@ -70,7 +70,7 @@ First you create a function which you use to add as an advice.
 Now you ask the function to be added as an advice to some other function using `advice-add`.
 
 ``` emacs-lisp
-(advice-add the-function :after #'my-advice-fun)
+(advice-add the-function :around #'my-advice-fun)
 ```
 
 This will add `my-advice-fun` as an advice to `the-function`.
