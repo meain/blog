@@ -8,6 +8,7 @@ permalink: "{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
 ---
 
 OK, so I recently switched over to Emacs just becuse I woke up one day and got the itch to write some lisp.
+It has been pretty fun so far.
 
 Now with that out of the way, let me tell you about what I was actually planning to write about.
 The idea is to show you a small example of how I am able to hack together stuff in Emacs.
