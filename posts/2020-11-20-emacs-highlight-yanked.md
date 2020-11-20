@@ -63,7 +63,7 @@ First you create a function which you use to add as an advice.
 (defun my-advice-fun (orig-fn arg1 arg2)
   ;; Do things you wanna do before calling the function
   (apply orig-fn arg1 arg2) ;; Call the original function
-  ;; Do thing you wanna do after calling the function
+  ;; Do things you wanna do after calling the function
   )
 ```
 
