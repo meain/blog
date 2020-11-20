@@ -370,12 +370,12 @@ a:hover {
 
   .postlist-item:hover {
     border: 1px solid var(--blue);
-	transition: border 0.1s ease-in-out;
+    transition: border 0.1s ease-in-out;
   }
 
   a:hover {
-	border-bottom: 2px solid rgba(0, 0, 0, 0);
-	transition: border-bottom 0.1s ease-in-out;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: border-bottom 0.1s ease-in-out;
   }
 }
 .category-title {
