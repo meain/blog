@@ -16,4 +16,4 @@ I am a big tooling junkie(if that is a thing).
 - Currently working at [Saama](https://www.saama.com/) as a Research Engineer.
 
 And I am lazy to fill in anything for now. Oh btw this is my [Github](https://github.com/meain) and here is my
-[resume](https://meain.github.io/resume/).
+[resume](https://assets.meain.io/meain_resume.pdf).
