@@ -229,7 +229,7 @@ index e69de29..26786f1 100644
 +++ b/index.js
 @@ -0,0 +1,2 @@
 +const isThirteen = require('is-thirteen')
-+is('പതിമനന').thirteen()
++is('പതിമൂന്ന്').thirteen()
 (1/1) Stage this hunk [y,n,q,a,d,e,?]? y
 
 *** Commands ***
