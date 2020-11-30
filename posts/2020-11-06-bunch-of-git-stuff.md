@@ -54,7 +54,7 @@ $ git worktree prune
 
 # Subtree
 
-Next item on the list is `git sutree`. Think of this as `submodules` in git, but instead of just linking to an external repo, you pull in the code to your repo and add it as via a commit. This can kinda be used as a low tech dependency managemnt tool like submodules, but you don't have to deal with any of the submodule issues. I always end up having issues with submodules in CI stuff.
+Next item on the list is `git subtree`. Think of this as `submodules` in git, but instead of just linking to an external repo, you pull in the code to your repo and add it via a commit. This can kinda be used as a low tech dependency managemnt tool like submodules, but you don't have to deal with any of the submodule issues. I always end up having issues with submodules in CI stuff.
 
 ``` shell
 git subtree add --prefix=<folder> <repository> <ref>
