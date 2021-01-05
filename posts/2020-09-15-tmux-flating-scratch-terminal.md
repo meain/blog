@@ -21,6 +21,8 @@ I had by this time had a floating terminal setup however and so did not really t
 
 Today, I thought I would actually try getting this can be done in tmux. Just for the heck of it.
 
+> **This is not yet in any released version just yet and you will have to build from master branch. It will be available in the 3.2 release.**
+
 ## Floating windows in tmux
 
 Basically you can get a floating window in tmux using the following command:
