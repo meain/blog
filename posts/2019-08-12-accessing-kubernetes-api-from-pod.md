@@ -228,4 +228,4 @@ spec:
             serviceAccountName: job-robot  # Name of the ServiceAccount, duh.
 ```
 
-And with that, you can not create a `Job` from within a `Pod` in your cluster.
+And with that, you can now create a `Job` from within a `Pod` in your cluster.
