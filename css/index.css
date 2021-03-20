@@ -335,7 +335,7 @@ a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
-  color: var(--grey);
+  color: var(--gray);
   border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
