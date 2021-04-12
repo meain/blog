@@ -108,7 +108,7 @@ Otherwise route it to the backend.
 Once you have changed the nginx config files, you will have to update running nginx instance.
 You can do the by doing:
 
-```
+```shell
 nginx -t  # check if config looks OK
 systemctl reload nginx
 ```
