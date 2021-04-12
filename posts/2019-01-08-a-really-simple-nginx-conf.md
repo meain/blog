@@ -41,7 +41,7 @@ server {
     client_max_body_size 200M;
     server_name yoursite.com www.yoursite.com;
 
-    root /home/soham/doc_bot/chatty/dist;
+    root /home/username/ui/dist;
     index index.html;
 
     location / {
