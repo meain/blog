@@ -103,15 +103,23 @@ specific endpoint like `/api` or something for your backend.
 Here we check if a file like that exists in static directory that we gave, if yes then serve the static file.
 Otherwise route it to the backend.
 
+# Updating changes in nginx
+
+Once you have changed the nginx config files, you will have to update running nginx instance.
+You can do the by doing:
+
+```
+nginx -t  # check if config looks OK
+systemctl reload nginx
+```
+
 # Starting and stopping `nginx`
 
 Well, usually you will have `systemctl` running `nginx`, in which case you have the following commands.
 
-> Might not be the case always, `nginx` may not be running through `systemctl`
-
 ```shell
-systemctl status nginx
-systemctl start nginx
-systemctl stop nginx
-systemctl restart nginx
+systemctl status nginx  # check status
+systemctl start nginx  # start nginx
+systemctl stop nginx  # stop nginx
+systemctl restart nginx  # stop then start nginx
 ```
