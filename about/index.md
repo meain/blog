@@ -8,6 +8,7 @@ eleventyNavigation:
 ---
 
 Hi, my name is Abin Simon. I like to build stuff for fun.
+You will find me as `meain` in most places.
 
 I am interested in UX design and improving developer workflows.
 I am a big tooling junkie(if that is a thing).
@@ -17,3 +18,77 @@ I am a big tooling junkie(if that is a thing).
 
 And I am lazy to fill in anything for now. Oh btw this is my [Github](https://github.com/meain) and here is my
 [resume](https://assets.meain.io/meain_resume.pdf). You can reach me at [mail@meain.io](mailto:mail@meain.io).
+
+<br>
+
+<details>
+<summary>And just in case, here is my PGP public key.<i> (Click to expand)</i></summary>
+<pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+Uj7hgoRbaTrZ+JfyVF1dAw==
+=1yXI
+-----END PGP PUBLIC KEY BLOCK-----
+</pre>
+<details>
+
