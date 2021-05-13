@@ -275,6 +275,10 @@ pre:hover {
   justify-content: space-between;
   border-radius: 5px;
 }
+.faded{
+  font-size: 0.8125em; /* 13px /16 */
+  color: var(--gray);
+}
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
