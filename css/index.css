@@ -200,6 +200,11 @@ pre:hover {
   }
 }
 
+.faded {
+  font-size: 0.8125em; /* 13px /16 */
+  color: var(--gray);
+}
+
 /* TODO: Highlight line colors might not work for dark mode */
 .highlight-line {
   display: block;
@@ -275,10 +280,6 @@ pre:hover {
   justify-content: space-between;
   border-radius: 5px;
 }
-.faded{
-  font-size: 0.8125em; /* 13px /16 */
-  color: var(--gray);
-}
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
@@ -302,17 +303,25 @@ pre:hover {
   /* font-weight: 700; */
 }
 
+.post-read-time {
+  display: none;
+}
+.postlist-item:hover .post-read-time {
+  display: inline-block;
+}
+
 /* Tags */
 .post-tag {
   display: inline-block;
   vertical-align: text-top;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 0.625em; /* 10px /16 */
-  padding: 2px 4px;
+  padding: 0px 10px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: var(--green);
-  color: var(--darkgreen);
-  border-radius: 0.25em; /* 3px /12 */
+  border: 1px solid var(--darkgrey);
+  /* color: var(--darkgreen); */
+  /* border-radius: 0.25em; /\* 3px /12 *\/ */
+  /* border-radius: 50px; */
   text-decoration: none;
 }
 
