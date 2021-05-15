@@ -56,7 +56,7 @@
                 setTimeout(function () {button.innerText = 'Copy';}, 2000);
             }, function (error) {button.innerText = 'Error';});
         });
-        codeBlock.parentNode.insertBefore(button, codeBlock);
+        codeBlock.parentNode.parentNode.insertBefore(button, codeBlock.parentNode);
       });
     }
     if (navigator && navigator.clipboard) {

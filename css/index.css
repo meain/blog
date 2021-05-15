@@ -433,39 +433,39 @@ kbd:active {
   box-shadow: none;
 }
 
-pre:hover > .copy-code-button {
-  display: block;
-}
 .copy-code-button {
-  background-color: var(--white);
-  border-color: var(--lightgrey);
-  border: 2px solid;
-  border-radius: 3px 3px 0px 0px;
   display: block;
-  margin-left: auto;
-  margin-right: 0;
-  margin-bottom: -23px;
-  padding: 3px 8px;
-  font-size: 0.8em;
-  z-index: 100;
-  position: relative;
-  border-radius: 5px;
-  cursor: pointer;
   font-family: var(--main-font);
+  position: relative;
+  padding: 3px 8px;
+  cursor: pointer;
+  border: none;
   outline: 0;
-  opacity: 0.7;
-  display: none;
+
+  background-color: transparent;
+  color: var(--kinda-almost-white);
+  border: 1px solid var(--kinda-almost-white);
+  border-radius: 5px;
+
+  /* z-index: 100; */
+  /* opacity: 0.7; */
+
+  margin-left: auto;
+  margin-right: 2px;
+  margin-bottom: -30px;
+
+  /* display: none; */
 }
 .copy-code-button:focus,
 .copy-code-button:active,
 .copy-code-button:hover {
-  background-color: var(--kinda-almost-white);
-  opacity: 1;
+  background-color: var(--white);
+  color: var(--black);
 }
 @media only screen and (max-width: 600px) {
   .copy-code-button {
     /* Disable it in mobile screen. The vertical scroll is messed up plus */
     /* nobody is going to copy on phones anyways. */
-    display: none;
+    /* display: none; */
   }
 }
