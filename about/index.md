@@ -90,5 +90,4 @@ Uj7hgoRbaTrZ+JfyVF1dAw==
 =1yXI
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
-<details>
-
+</details>
