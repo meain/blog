@@ -460,7 +460,7 @@ kbd:active {
   border: 1px solid var(--always-white);
   border-top: none;
   border-right: none;
-  border-radius: 0 5px 0 3px;
+  border-radius: 0 3px 0 3px;
   overflow: hidden;
 
   position: absolute;
