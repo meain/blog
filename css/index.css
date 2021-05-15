@@ -16,6 +16,12 @@
   --almost-white: #f2f2f2;
   --kinda-almost-white: #e6e6e6;
 
+  /* These are needed when we are overlaying things on top of the code */
+  /* snippets. They alwyas have the same shade irrespective or dark or */
+  /* light colorschemes. */
+  --always-white: #ffffff;
+  --always-black: #000000;
+
   --main-font: "Inconsolata", Consolas, Menlo, Monaco, Inconsolata,
     "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
     "Liberation Mono", "Nimbus Mono L", monospace;
@@ -433,39 +439,40 @@ kbd:active {
   box-shadow: none;
 }
 
+.code-wrapper {
+  position: relative;
+}
+.code-wrapper:focus > .copy-code-button,
+.code-wrapper:active > .copy-code-button,
+.code-wrapper:hover > .copy-code-button {
+  display: block;
+}
 .copy-code-button {
   display: block;
   font-family: var(--main-font);
-  position: relative;
   padding: 3px 8px;
   cursor: pointer;
   border: none;
   outline: 0;
 
   background-color: transparent;
-  color: var(--kinda-almost-white);
-  border: 1px solid var(--kinda-almost-white);
-  border-radius: 5px;
+  color: var(--always-white);
+  border: 1px solid var(--always-white);
+  border-top: none;
+  border-right: none;
+  border-radius: 0 5px 0 3px;
+  overflow: hidden;
 
-  /* z-index: 100; */
-  /* opacity: 0.7; */
+  position: absolute;
+  right: 0;
+  top: 0;
 
-  margin-left: auto;
-  margin-right: 2px;
-  margin-bottom: -30px;
-
-  /* display: none; */
+  display: none;
 }
+
 .copy-code-button:focus,
 .copy-code-button:active,
 .copy-code-button:hover {
-  background-color: var(--white);
-  color: var(--black);
-}
-@media only screen and (max-width: 600px) {
-  .copy-code-button {
-    /* Disable it in mobile screen. The vertical scroll is messed up plus */
-    /* nobody is going to copy on phones anyways. */
-    /* display: none; */
-  }
+  background-color: var(--always-white);
+  color: var(--always-black);
 }
