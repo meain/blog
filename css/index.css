@@ -170,8 +170,8 @@ code {
   line-height: 1.5;
   background-color: var(--almost-white);
   padding: 2px 10px;
-  border-radius: 5px;
   font-size: inherit;
+  margin: 0 !important;
 }
 pre > code {
   padding: 0;
@@ -193,18 +193,9 @@ pre {
   -ms-hyphens: none;
   hyphens: none;
   padding: 1.5em !important;
-  border-radius: 5px;
-  margin: 0.5em 0;
   background-color: var(--almost-white);
-  overflow: hidden !important;
-}
-pre:hover {
-  overflow: auto !important;
-}
-@media only screen and (max-width: 600px) {
-  pre {
-    overflow: auto !important;
-  }
+  max-height: 400px;
+  overflow: auto;
 }
 
 .faded {
@@ -441,6 +432,9 @@ kbd:active {
 
 .code-wrapper {
   position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0.5em 0;
 }
 .code-wrapper:focus > .copy-code-button,
 .code-wrapper:active > .copy-code-button,
