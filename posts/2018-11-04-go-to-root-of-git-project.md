@@ -7,7 +7,7 @@ keywords: git, project, bash
 title: Quickly go to project root
 ---
 
-Let us say you wen't it deep in to a highly nested project structure and want to get back to the project root.
+Let us say you went deep in to a highly nested project structure and want to get back to the project root.
 
 Sure you could go `cd ../<TAB>`, nah not here `cd ../../<TAB>`, not here either .....
 But there is a much better way to do this.
